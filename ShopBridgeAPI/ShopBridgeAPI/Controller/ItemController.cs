@@ -11,6 +11,7 @@ using System.Net.Http;
 namespace ShopBridgeAPI.Controller
 {
     //obul subbranch 2
+
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ItemController : ApiController
     {
